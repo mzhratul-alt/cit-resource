@@ -34,3 +34,24 @@ a,a:hover{
    text-transform: uppercase;
 }
 /* //Tools  Section Css End */
+
+
+/* Cheat Sheet Section Css Start */
+.example_heading{
+   border-top: 2px solid #ddd;
+   border-bottom: 2px solid #ddd;
+   padding: 10px 0;
+   margin: 10px 0;
+   color: olivedrab
+}
+.topic_box{
+   border: 1px solid #ddd;
+   box-shadow: 0 0 10px -3px rgba(95, 128, 31,0.5);
+   border-radius: 20px;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+.topic_box:last-child{
+   margin-bottom: 0;
+}
+/* //Cheat Sheet Section Css End */
