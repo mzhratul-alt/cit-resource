@@ -1,0 +1,36 @@
+/*
+
+*/
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+   margin: 0;
+   padding: 0;
+}
+ol,ul{
+   list-style-type: none;
+}
+a,a:hover{
+   text-decoration: none;
+}
+/* //Common Css End */
+/* Nav Section Css Start */
+#nav{
+   margin-bottom: 50px;
+   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+}
+/* //Nav Section Css End */
+/* Tools Section Css Start */
+#tools .tools_item img.card-img-top{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+   object-position: center;
+}
+#tools .tools_item h4{
+   text-transform: uppercase;
+}
+/* //Tools  Section Css End */
